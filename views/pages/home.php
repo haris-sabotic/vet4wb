@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include "views/components/nav.php" ?>
+    <?php include "../views/components/nav.php" ?>
 
     <div class="grid-container">
         <div class="grid">
@@ -66,7 +66,7 @@
         </div>
     </div>
 
-    <?php include "views/components/footer.php" ?>
+    <?php include "../views/components/footer.php" ?>
 </body>
 
 </html>
