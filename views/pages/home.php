@@ -77,6 +77,7 @@
                 <a href="#">Read more</a>
             </div>
         </div>
+        <hr>
     <?php endif ?>
 
 
