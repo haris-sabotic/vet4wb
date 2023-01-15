@@ -79,6 +79,15 @@
         </div>
     <?php endif ?>
 
+
+    <?php if ($CONFIG["HOME_SHOW_CONTACT_FORM"]) : ?>
+        <div class="form-contact-container">
+            <h1>CONTACT US</h1>
+            <?php include "../views/components/contact_form.php" ?>
+        </div>
+    <?php endif ?>
+
+
     <?php include "../views/components/footer.php" ?>
 </body>
 
