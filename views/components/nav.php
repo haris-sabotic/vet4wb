@@ -8,7 +8,7 @@
     </div>
 
     <div class="links" id="links">
-        <a style="font-weight: bold;" href="#">HOME</a>
+        <a class="highlighted" href="#">HOME</a>
         <a href="#">NEWS</a>
         <a href="#">ABOUT</a>
         <a href="#">CONTACT</a>

@@ -10,6 +10,12 @@ nav {
 
 nav a {
     color: #E18225;
+    font-size: 1.1em;
+}
+
+nav .highlighted {
+    text-decoration: underline;
+    text-underline-offset: 8px;
 }
 
 nav .burger {
@@ -17,7 +23,7 @@ nav .burger {
     flex-direction: column;
     align-items: end;
     padding-top: 7px;
-    
+
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
 }
