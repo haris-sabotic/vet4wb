@@ -1,0 +1,41 @@
+.form-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contact>*:not(label) {
+    margin-bottom: 15px;
+}
+
+.form-contact label {
+    margin-bottom: 5px;
+}
+
+.form-contact .name {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: minmax(0px, auto) minmax(0px, auto);
+    column-gap: 10px;
+}
+
+.form-contact button {
+    width: min-content;
+    align-self: center;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkslategray;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.form-contact input,
+.form-contact textarea {
+    padding: 5px;
+}
+
+.form-contact label {
+    font-size: small;
+}
