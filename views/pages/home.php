@@ -1,3 +1,4 @@
+<?php include "../config.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vet4WB</title>
-    
+
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/home.css">
 </head>
@@ -65,6 +66,18 @@
             </div>
         </div>
     </div>
+
+    <?php if ($CONFIG["HOME_SHOW_ABOUT_SECTION"]) : ?>
+        <div class="section-about">
+            <h1>About</h1>
+            <div class="summary">
+                <p>The “VET for Western Balkans” project aims to contribute to the improvement and modernization of VET systems in four
+                    partners in the Western Balkans: Albania, Bosnia and Herzegovina, Montenegro and Kosovo, and reinforcement of the
+                    links between VET and labour market.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    <?php endif ?>
 
     <?php include "../views/components/footer.php" ?>
 </body>

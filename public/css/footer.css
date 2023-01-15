@@ -4,7 +4,7 @@ footer {
     column-gap: 5%;
     row-gap: 20px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 150px;
 }
 
 footer .img {
@@ -29,9 +29,11 @@ footer .idk {
 @media (max-width: 80.0rem) {
     footer {
         margin: 10px;
+        margin-top: 150px;
     }
 
-    footer .idk, footer .copyright {
+    footer .idk,
+    footer .copyright {
         grid-column-start: 2;
         grid-column-end: 4;
     }
@@ -46,9 +48,11 @@ footer .idk {
     footer {
         grid-template-columns: 1fr;
         margin: 10px;
+        margin-top: 150px;
     }
 
-    footer .idk, footer .copyright {
+    footer .idk,
+    footer .copyright {
         grid-column-start: 1;
         grid-column-end: 2;
         text-align: center;
