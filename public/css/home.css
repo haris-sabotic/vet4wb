@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     padding: 3vw 0 3vw 0;
-    background-color: #00441b;
+
+    background: linear-gradient(45deg, #004b1e 25%, transparent 25%), linear-gradient(315deg, #004b1e 25%, transparent 25%), linear-gradient(45deg, transparent 24%, #00441b 25%, #00441b 45%, transparent 45%), linear-gradient(315deg, transparent 24%, #00441b 25%, #00441b 45%, transparent 45%);
+    background-size: 6em 6em;
+    background-color: #004b1e;
 }
 
 .grid {
