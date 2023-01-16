@@ -102,3 +102,14 @@
         margin: 50px 30% 50px 30%;
     }
 }
+
+
+.form-newsletter-container {
+    margin: 50px 5% 50px 5%;
+}
+
+.form-newsletter-container h1 {
+    color: darkslategray;
+    text-align: center;
+    margin-bottom: 20px;
+}

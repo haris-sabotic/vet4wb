@@ -1,6 +1,7 @@
 @import "nav.css";
 @import "footer.css";
 @import "contact_form.css";
+@import "newsletter_form.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 * {
@@ -12,6 +13,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: rgb(247, 247, 247);
 }
 
 a {

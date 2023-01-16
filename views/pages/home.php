@@ -68,6 +68,7 @@
     </div>
 
     <?php if ($CONFIG["HOME_SHOW_ABOUT_SECTION"]) : ?>
+        <hr>
         <div class="section-about">
             <h1>About</h1>
             <div class="summary">
@@ -77,14 +78,22 @@
                 <a href="#">Read more</a>
             </div>
         </div>
-        <hr>
     <?php endif ?>
 
 
     <?php if ($CONFIG["HOME_SHOW_CONTACT_FORM"]) : ?>
+        <hr>
         <div class="form-contact-container">
             <h1>CONTACT US</h1>
             <?php include "../views/components/contact_form.php" ?>
+        </div>
+    <?php endif ?>
+
+    <?php if ($CONFIG["HOME_SHOW_NEWSLETTER_FORM"]) : ?>
+        <hr>
+        <div class="form-newsletter-container">
+            <h1>JOIN OUR NEWSLETTER</h1>
+            <?php include "../views/components/newsletter_form.php" ?>
         </div>
     <?php endif ?>
 
