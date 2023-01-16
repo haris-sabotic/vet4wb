@@ -7,11 +7,23 @@
         <div></div>
     </div>
 
+
     <div class="links" id="links">
-        <a class="highlighted" href="#">HOME</a>
-        <a href="#">NEWS</a>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACT</a>
+        <?php
+        $navLinks = [
+            "HOME" => "/",
+            "NEWS" => "#",
+            "ABOUT" => "#",
+            "CONTACT" => "/contact",
+        ];
+
+        foreach ($navLinks as $title => $link) {
+            echo "<a ";
+            if ($link == "/" . basename($_SERVER["REQUEST_URI"], ".php"))
+                echo "class=\"highlighted\"";
+            echo " href = \"$link\">$title</a>";
+        }
+        ?>
     </div>
 
     <script src="js/nav.js"></script>

@@ -13,4 +13,9 @@ $router->get("/", function () {
     exit;
 });
 
+$router->get("/contact", function () {
+    include __DIR__ . '/../views/pages/contact.php';
+    exit;
+});
+
 $router->run();
