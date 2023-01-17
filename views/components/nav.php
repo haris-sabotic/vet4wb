@@ -13,7 +13,7 @@
         $navLinks = [
             "HOME" => "/",
             "NEWS" => "#",
-            "ABOUT" => "#",
+            "ABOUT" => "/about",
             "CONTACT" => "/contact",
         ];
 

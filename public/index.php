@@ -18,4 +18,9 @@ $router->get("/contact", function () {
     exit;
 });
 
+$router->get("/about", function () {
+    include __DIR__ . '/../views/pages/about.php';
+    exit;
+});
+
 $router->run();
