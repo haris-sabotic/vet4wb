@@ -103,6 +103,13 @@
         </div>
     </div>
 
+    <hr>
+
+    <div class="form-newsletter-container">
+        <h1>JOIN OUR NEWSLETTER</h1>
+        <?php include "../views/components/newsletter_form.php" ?>
+    </div>
+
     <div class="partner-dialog">
         <div class="background" onclick="partnerDialogBackgroundClicked()"></div>
         <div class="content">
