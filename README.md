@@ -4,4 +4,4 @@
 
 https://www.figma.com/file/ypPzcYw29ffQVxUn858TQW/Untitled?node-id=26%3A28&t=DaJ8lJ6QBSKi9V49-1
 
-designed by dzeba
+designed by dzeba-wut(Dzenis Nurkovic).
