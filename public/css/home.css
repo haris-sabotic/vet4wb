@@ -13,10 +13,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: fit-content;
     height: fit-content;
-    column-gap: 1px;
-    row-gap: 1px;
-    padding: 1px;
-    background-color: white;
+    column-gap: 5px;
+    row-gap: 5px;
 }
 
 @media (max-width: 1255px) {
