@@ -76,7 +76,7 @@
                 <p>The “VET for Western Balkans” project aims to contribute to the improvement and modernization of VET systems in four
                     partners in the Western Balkans: Albania, Bosnia and Herzegovina, Montenegro and Kosovo, and reinforcement of the
                     links between VET and labour market.</p>
-                <a href="#">Read more</a>
+                <a href="/about">Read more</a>
             </div>
         </div>
     <?php endif ?>
