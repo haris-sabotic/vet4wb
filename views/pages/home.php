@@ -15,55 +15,60 @@
 
 <body>
     <?php include "../views/components/nav.php" ?>
+    <div class="home-image">
+        <h1>VET for Western</h1>
+        <span>Balkans</span>
+    </div>
 
+    </div>
     <div class="grid-container">
         <div class="grid">
             <div class="cell">
-                <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
 
             <div class="cell">
-                <img src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
 
             <div class="cell">
-                <img src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
 
             <div class="cell">
-                <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
 
             <div class="cell">
-                <img src="https://images.pexels.com/photos/2422294/pexels-photo-2422294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
 
             <div class="cell">
-                <img src="https://images.pexels.com/photos/3184396/pexels-photo-3184396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
 
             <div class="cell">
-                <img src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
 
             <div class="cell">
-                <img src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
 
             <div class="cell">
-                <img src="https://images.pexels.com/photos/2422294/pexels-photo-2422294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
 
             <div class="cell">
-                <img src="https://images.pexels.com/photos/3184396/pexels-photo-3184396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
 
             <div class="cell">
-                <img src="https://images.pexels.com/photos/3184396/pexels-photo-3184396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
 
             <div class="cell">
-                <img src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://placehold.jp/300x200.png">
             </div>
         </div>
     </div>
@@ -71,8 +76,9 @@
     <?php if ($CONFIG["HOME_SHOW_ABOUT_SECTION"]) : ?>
         <hr>
         <div class="section-about">
-            <h1>About</h1>
-            <div class="summary">
+            <img src="https://placehold.jp/300x300.png" alt="300300">
+            <div class="about-us">
+                <h1>ABOUT US</h1>
                 <p>The “VET for Western Balkans” project aims to contribute to the improvement and modernization of VET systems in four
                     partners in the Western Balkans: Albania, Bosnia and Herzegovina, Montenegro and Kosovo, and reinforcement of the
                     links between VET and labour market.</p>
@@ -82,6 +88,7 @@
     <?php endif ?>
 
 
+    
     <?php if ($CONFIG["HOME_SHOW_CONTACT_FORM"]) : ?>
         <hr>
         <div class="form-contact-container">
