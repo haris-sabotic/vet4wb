@@ -28,7 +28,7 @@
 @media (max-width: 60.0rem) {
     .home-image {
         justify-content: center;
-        
+        padding: 7% 2% 0 2%;
     }
     .home-image h1{
         align-self: center;
