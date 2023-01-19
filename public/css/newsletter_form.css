@@ -24,3 +24,7 @@
     margin-top: 15px;
     cursor: pointer;
 }
+
+.form-newsletter button:hover {
+    background-color: #da740f;
+}

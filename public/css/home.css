@@ -7,7 +7,7 @@
     background-position: center center;
     display: flex;
     flex-direction: column;
-    padding: 7% 0 0 8%;
+    padding: 7% 0 0 15%;
 }
 
 .home-image h1{
@@ -98,6 +98,10 @@
     background-image: url(/img/patterngreen.png);
 }
 
+.section-about img {
+    margin-left: 8vw;
+}
+
 .about-us {
     max-width: 40%;
     display: flex;
@@ -125,6 +129,7 @@ color: aliceblue;
     color: white;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
+   
 }
 
 .about-us a:hover {
