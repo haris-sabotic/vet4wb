@@ -1,5 +1,11 @@
 <nav>
-    <a href="https://vet4wb.com/" class="logo"><img src="img/vet4wb_logo.png" alt="logo"></a>
+    <div class="left">
+        <a href="https://vet4wb.com/" class="logo"><img src="img/vet4wb_logo.png" alt="logo"></a>
+        <select name="select-language" id="select-language" onchange="languageSelected(this.value)">
+            <option value="me">Crnogorski</option>
+            <option value="en">Engleski</option>
+        </select>        
+    </div>
 
     <div class="burger" id="burger">
         <div></div>
