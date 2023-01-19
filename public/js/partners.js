@@ -1,5 +1,5 @@
-function partnerClicked(index) {
-    fetch("partners.json")
+function partnerClicked(index, file) {
+    fetch(file)
         .then((response) => {
             if (!response.ok) {
                 throw new Error(`HTTP error: ${response.status}`);

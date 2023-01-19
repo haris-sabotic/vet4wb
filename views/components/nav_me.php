@@ -11,10 +11,10 @@
     <div class="links" id="links">
         <?php
         $navLinks = [
-            "POČETNA" => "/me",
+            "POČETNA" => "/?lang=me",
             "NOVOSTI" => "#",
-            "O NAMA" => "/about&lang=me",
-            "KONTAKT" => "/contact&lang=me",
+            "O NAMA" => "/about?lang=me",
+            "KONTAKT" => "/contact?lang=me",
         ];
 
         foreach ($navLinks as $title => $link) {

@@ -83,7 +83,7 @@
                 $img_url = $partner->{"img_url"};
 
                 echo "
-                    <div class=\"partner\" onclick=\"partnerClicked($i)\">
+                    <div class=\"partner\" onclick=\"partnerClicked($i, 'partners_me.json')\">
                         <img src=\"$img_url\">
                     </div>
                     \n";
@@ -92,7 +92,7 @@
             }
             ?>
 
-            <script src="js/partners_me.js"></script>
+            <script src="js/partners.js"></script>
         </div>
     </div>
 
@@ -111,8 +111,8 @@
                 <img id="partner-img" src="https://i0.wp.com/vet4wb.com/wp-content/uploads/2021/09/VEE1061.png?w=1200&ssl=1">
             </div>
             <hr>
-            <p><strong>Country:</strong> <span id="partner-country">[Country]</span></p>
-            <p><strong>Contact person:</strong> <span id="partner-contact-person">[Contact person]</span></p>
+            <p><strong>Država:</strong> <span id="partner-country">[Country]</span></p>
+            <p><strong>Osoba za kontakt:</strong> <span id="partner-contact-person">[Contact person]</span></p>
             <p><strong>Email:</strong> <span id="partner-email">[Email]</span></p>
             <hr>
             <p id="partner-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab impedit dolor velit esse libero

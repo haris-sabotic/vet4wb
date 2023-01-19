@@ -79,8 +79,8 @@
             <img src="https://placehold.jp/300x300.png" alt="300300">
             <div class="about-us">
                 <h1>O nama</h1>
-                <p>Projekat "VET za Zapadni Balkan" ("VET for Western Balkan") teži da doprinese unapređenju i modernizaciji stručnog obrazovanja u četiri partnerske zemlje Zapadnog Balkana: Albaniji, Bosni i Hercegovini, Crnoj Gori i na Kosovu, te da sudjeluje u osnaživanju veze između sistema srednjeg stručnog obrazovanja i tržišta rada.</p>
-                <a href="/about">PROČITAJTE VIŠE</a>
+                <p>Projekat "VET za Zapadni Balkan" ("VET for Western Balkans") teži da doprinese unapređenju i modernizaciji stručnog obrazovanja u četiri partnerske zemlje Zapadnog Balkana: Albaniji, Bosni i Hercegovini, Crnoj Gori i na Kosovu, te da sudjeluje u osnaživanju veze između sistema srednjeg stručnog obrazovanja i tržišta rada.</p>
+                <a href="/about?lang=me">PROČITAJTE VIŠE</a>
             </div>
         </div>
     <?php endif ?>

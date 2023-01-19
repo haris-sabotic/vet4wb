@@ -91,7 +91,7 @@
                 $img_url = $partner->{"img_url"};
 
                 echo "
-                    <div class=\"partner\" onclick=\"partnerClicked($i)\">
+                    <div class=\"partner\" onclick=\"partnerClicked($i, 'partners.json')\">
                         <img src=\"$img_url\">
                     </div>
                     \n";

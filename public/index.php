@@ -9,33 +9,36 @@ $router->set404(function () {
 });
 
 $router->get("/", function () {
-    include __DIR__ . '/../views/pages/home.php';
-    exit;
-});
-
-$router->get("/me", function () {
-    include __DIR__ . '/../views/pages/home_me.php';
-    exit;
+    switch ($_GET["lang"]) {
+        case "me":
+            include __DIR__ . '/../views/pages/home_me.php';
+            exit;
+        default:
+            include __DIR__ . '/../views/pages/home.php';
+            exit;
+    }
 });
 
 $router->get("/contact", function () {
-    include __DIR__ . '/../views/pages/contact.php';
-    exit;
-});
-
-$router->get("/contact&lang=me", function () {
-    include __DIR__ . '/../views/pages/contact_me.php';
-    exit;
+    switch ($_GET["lang"]) {
+        case "me":
+            include __DIR__ . '/../views/pages/contact_me.php';
+            exit;
+        default:
+            include __DIR__ . '/../views/pages/contact.php';
+            exit;
+    }
 });
 
 $router->get("/about", function () {
-    include __DIR__ . '/../views/pages/about.php';
-    exit;
-});
-
-$router->get("/about&lang=me", function () {
-    include __DIR__ . '/../views/pages/about_me.php';
-    exit;
+    switch ($_GET["lang"]) {
+        case "me":
+            include __DIR__ . '/../views/pages/about_me.php';
+            exit;
+        default:
+            include __DIR__ . '/../views/pages/about.php';
+            exit;
+    }
 });
 
 $router->run();
