@@ -1,104 +1,84 @@
-.horizontal-section {
-    display: flex;
-    flex-direction: column;
-    margin: 100px 5% 100px 5%;
-    text-align: center;
-}
-
-.horizontal-section h1 {
-    margin-bottom: 30px;
-    color: darkslategray;
-    font-weight: bold;
-    font-size: 3em;
-}
-
-.horizontal-section .body * {
-    margin-bottom: 5px;
-    font-size: 1.1em;
-}
-
-.horizontal-section .body ul {
-    text-align: left;
-    margin: 0 20px 0 20px;
-}
-
-@media (min-width: 80.0rem) {
-    .horizontal-section {
-        display: flex;
-        flex-direction: row;
-        text-align: left;
-        margin: 100px 10% 100px 15%;
-        align-items: center;
-    }
-
-    .horizontal-section h1 {
-        min-width: 35vw;
-        margin-right: 30px;
-    }
-
-    .horizontal-section .body ul {
-        text-align: left;
-        margin: 0;
-    }
-}
-
-
-.section-our-activities {
+.about-section {
     margin: 50px 5% 50px 5%;
 }
 
-.section-our-activities h1 {
-    color: darkslategray;
+.about-section h1 {
+    color: #00441B;
     text-align: center;
     margin-bottom: 60px;
     font-size: 3em;
 }
 
-.section-our-activities .body {
+.about-section .body {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.section-our-activities .body>p {
+.about-section .body>.description {
     margin: 0 0 15px 0;
 }
 
+.about-section .body>ul {
+    text-align: left;
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-.section-our-activities .body .photo p {
+.about-section .body .photo p {
     text-align: center;
 }
 
-.section-our-activities img {
-    width: 100%;
+.about-section img {
+    width: 70vw;
     height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
 }
 
-.section-our-activities img:hover {
-    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+.about-section a>img:hover {
+    box-shadow: 0 0 10px gray;
 }
 
-@media (min-width: 100.0rem) {
-    .section-our-activities {
+@media (min-width: 80.0rem) {
+    .about-section {
         margin: 50px 15% 50px 15%;
     }
 
-    .section-our-activities .body {
+    .about-section .body {
         flex-direction: row;
         text-align: left;
         align-items: center;
     }
 
-    .section-our-activities .body>p {
+    .about-section .reversed {
+        flex-direction: row-reverse;
+    }
+
+    .about-section .body>.description {
         margin: 0 10% 15px 0;
         font-size: 1.1em;
     }
+    
+    .about-section .reversed>.description {
+        margin: 0 0 15px 10%;
+        font-size: 1.1em;
+    }
+
+    .about-section .body>ul {
+        text-align: left;
+        margin: 0;
+    }
+
+    .about-section img {
+        width: 50vw;
+    }
 }
 
-@media (min-width: 50.0rem) {
-    .section-our-activities img {
-        width: auto;
-        height: auto;
+@media (min-width: 60.0rem) {
+    .about-section img {
+        width: 30vw;
     }
 }
 
@@ -108,7 +88,7 @@
 }
 
 .section-partners h1 {
-    color: darkslategray;
+    color: #00441B;
     text-align: center;
     margin-bottom: 60px;
     font-size: 3em;
@@ -126,8 +106,9 @@
     height: 200px;
 
     background-color: white;
-    border: 1px solid black;
     border-radius: 5px;
+    
+    box-shadow: 0 0 5px gray;
 
     display: flex;
     justify-content: center;
@@ -227,7 +208,7 @@
 }
 
 .form-newsletter-container h1 {
-    color: darkslategray;
+    color: #00441B;
     text-align: center;
     margin-bottom: 20px;
 }

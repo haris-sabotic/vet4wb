@@ -16,57 +16,70 @@
 <body>
     <?php include "../views/components/nav.php" ?>
 
-    <div class="horizontal-section">
+    <div class="about-section">
         <h1>About</h1>
-        <div class="body">
-            <p>
+        <div class="body reversed">
+            <p class="description">
                 The “VET for Western Balkans” project aims to contribute to the improvement and modernization of VET
                 systems in four
                 partners in the Western Balkans: Albania, Bosnia and Herzegovina, Montenegro and Kosovo, and
                 reinforcement of the
                 links between VET and labour market.
             </p>
+
+            <div class="photo">
+                <img src="https://i0.wp.com/vet4wb.com/wp-content/uploads/2022/07/Training-in-Denmark_1.png?w=657&ssl=1">
+            </div>
         </div>
     </div>
 
     <hr>
 
-    <div class="horizontal-section">
+    <div class="about-section">
         <h1>Target Group</h1>
         <div class="body">
-            <ul>
+            <ul class="description">
                 <li>The Balkan partners involved in the project</li>
                 <li>Other VET providers in the countries concerned</li>
                 <li>Businesses (especially local and regional), business organizations, primary schools, their pupils,
                     and parents, and relevant ministries in the countries concerned</li>
             </ul>
+
+            <div class="photo">
+                <img src="https://i0.wp.com/vet4wb.com/wp-content/uploads/2022/07/Training-in-Denmark_1.png?w=657&ssl=1">
+            </div>
         </div>
     </div>
 
     <hr>
 
-    <div class="horizontal-section">
+    <div class="about-section">
         <h1>Expected Outcomes</h1>
-        <div class="body">
-            <ul>
+        <div class="body reversed">
+            <ul class="description">
                 <li>Exchange programmes between Erasmus+ Programme Countries and the Western Balkans</li>
                 <li>The knowledge, technical and pedagogical skills of VET teachers to be improved</li>
                 <li>The knowledge of VET managerial staff to be improved</li>
                 <li>The transversal, generic and subject specific skills of learners to be enhanced</li>
             </ul>
+
+            <div class="photo">
+                <img src="https://i0.wp.com/vet4wb.com/wp-content/uploads/2022/07/Training-in-Denmark_1.png?w=657&ssl=1">
+            </div>
         </div>
     </div>
 
     <hr>
 
-    <div class="section-our-activities">
+    <div class="about-section">
         <h1>Our Activities</h1>
 
         <div class="body">
-            <p>All project activities: mobilities, trainings, meetings, events, campaigns, establishment of joint task
-                forces, curriculum development, new strategies, action plans, introduction of new VET programs, development
-                of pedagogy and didactics, development of material etc., are planned and implemented in cooperation among
-                the partners, who willingly will share their experiences and networks with each other.</p>
+            <p class="description">All project activities: mobilities, trainings, meetings, events, campaigns, establishment
+                of joint task forces, curriculum development, new strategies, action plans, introduction of new VET programs,
+                development of pedagogy and didactics, development of material etc., are planned and implemented in cooperation
+                among the partners, who willingly will share their experiences and networks with each other.
+            </p>
 
             <div class="photo">
                 <a href="#">

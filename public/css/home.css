@@ -1,6 +1,5 @@
-.home-image {
-    width: 100%;
-    height: 70vh;
+.home-intro {
+    height: fit-content;
     background-image: url(/img/comptech2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,44 +9,55 @@
     padding: 7% 0 0 15%;
 }
 
-.home-image h1{
+.home-intro .title h1 {
     color: #E18225;
     font-weight: bold;
     font-size: 5em;
-    text-shadow: -3px 5px 5px black;
+    text-shadow: -3px 3px 7px black;
     line-height: 1em;
 }
-.home-image span {
+
+.home-intro .title span {
     margin-top: -20px;
     color: aliceblue;
     font-weight: bold;
     font-size: 5em;
-    text-shadow: -4px 7px 7px black;
+    text-shadow: -3px 3px 7px black;
 }
 
-@media (max-width: 60.0rem) {
-    .home-image {
-        justify-content: center;
-        padding: 7% 2% 0 2%;
-    }
-    .home-image h1{
-        align-self: center;
-        text-align: center;
-        margin-top: -50px;
-    }
-    .home-image span {
-        align-self: center;
-        text-align: center;
-        margin-top: -5px;
-    }
+.home-intro .description {
+    max-width: 40%;
+    margin-top: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
 }
+
+.home-intro .description p {
+    color: aliceblue;
+    text-shadow: -2px 2px 2px black;
+}
+
+.home-intro .description a {
+    margin-top: 25px;
+    width: fit-content;
+    background-color: #E18225;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    box-shadow: -2px 2px 2px black;
+}
+
+.home-intro .description a:hover {
+    background-color: #da740f;
+    box-shadow: -2px 2px 5px black;
+}
+
 
 .grid-container {
     display: flex;
     justify-content: center;
     padding: 3vw 0 3vw 0;
-
-    
 }
 
 .grid {
@@ -85,119 +95,4 @@
 .grid img {
     width: inherit;
     height: inherit;
-}
-
-
-.section-about {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /*text-align: center;*/
-    padding: 100px 15% 100px 10%;
-    align-items: center;
-    background-image: url(/img/patterngreen.png);
-}
-
-.section-about img {
-    margin-left: 8vw;
-}
-
-.about-us {
-    max-width: 40%;
-    display: flex;
-    flex-direction: column;
-}
-.about-us h1, .about-us p {
-color: aliceblue;
-}
-
-.about-us h1 {
-    position: relative;
-    background-image: url(/img/orangeunderline2.png);
-    background-size: 97%;
-    width: fit-content;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 0px 25px;
-    margin-bottom: 2%;
-}
-
-.about-us a {
-    margin-top: 5%;
-    width: fit-content;
-    background-color: #E18225;
-    color: white;
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-   
-}
-
-.about-us a:hover {
-    background-color: #da740f;
-}
-
-@media (max-width: 60.0rem) {
-    .section-about img {
-        display: none;
-    }
-    .section-about {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .about-us {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        max-width: 70%;
-    }
-    .about-us *{
-        width: 100%;
-        text-align: center;
-        align-self: center;
-    }
-}
-
-.form-contact-container {
-    margin: 50px 5% 50px 5%;
-}
-
-.form-contact-container h1 {
-    color: darkslategray;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-@media (min-width: 40.0rem) {
-    .form-contact-container {
-        margin: 50px 10% 50px 10%;
-    }
-}
-
-@media (min-width: 60.0rem) {
-    .form-contact-container {
-        margin: 50px 30% 50px 30%;
-    }
-}
-
-
-.form-newsletter-container {
-    padding: 50px 5% 50px 5%;
-    background-image: url(/img/patterngreen.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.form-newsletter-container h1 {
-    color: aliceblue;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 40px;
-    /*background-image: url(/img/orangeunderline2.png);
-    background-size: 100%;
-    width: fit-content;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 0px 25px;*/    
 }

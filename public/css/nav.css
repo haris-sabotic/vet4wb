@@ -15,16 +15,6 @@ nav .left {
     align-items: center;
 }
 
-nav select, nav option {
-    margin-left: 10px;
-    padding: 3px 6px 3px 6px;
-
-    color: white;
-
-    background-color: #E18225;
-    border: none;
-}
-
 nav a {
     color: #E18225;
     font-size: 1.1em;
